@@ -37,7 +37,7 @@
 
 ## Usage
 ```
-  git clone https://github.com/crytech7/methprog-3-year
+  git clone https://github.com/crytech7/methprog-lab-2
   cd methprog-lab-2
   python3 generate.py
   python3 main.py
