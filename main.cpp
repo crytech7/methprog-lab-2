@@ -7,9 +7,11 @@
 
 
 int main() {
-
+    std::string csv_file;
+    std::cout << "Enter csv file to read: ";
+    std::cin >> csv_file;
     typedef std::multimap < char, int >::iterator MMAPIterator;
-    std::ifstream file("100000.csv");
+    std::ifstream file(csv_file);
     std::multimap < std::string, std::string > my_map; // empty
     std::string first, second;
     auto t_start = std::chrono::high_resolution_clock::now();
